@@ -24,7 +24,7 @@
     }
     public static void WriteToConsoleWithIncrement(int Max, int Milliseconds, string Name) 
     { 
-        for (int i = 0; i < Max; i++)
+        for (int i = 0; i <= Max; i++)
         {
             Console.WriteLine($"Writing... {i} {Name}");
             Thread.Sleep(Milliseconds);
